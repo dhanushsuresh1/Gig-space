@@ -18,3 +18,9 @@ nav ul li {
 .logo a {
     font-size:38px;
 }
+
+.threeline .menu-toggle{
+    width: 24px;
+    height: 24px;
+    background: white;
+}
