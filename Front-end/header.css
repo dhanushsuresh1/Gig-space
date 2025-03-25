@@ -2,25 +2,61 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 24px;
+    
+}
+a{
     text-decoration: none;
 }
-nav{
-    width:100%;
-    background: grey;
+header{
+    height:3rem;
+    padding: 10px 20px;
     display: flex;
     justify-content: space-between;
-    position: fixed;
+    align-items: center;
+    background: #aa82a5;
 }
-nav ul li {
-    list-style: none;
-    display: inline-block;
+header img {
+    height: 2rem;
+    width: auto;
+    margin-right: 2rem;
 }
-.logo a {
-    font-size:38px;
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
 }
 
-.threeline .menu-toggle{
-    width: 24px;
-    height: 24px;
-    background: white;
+header .sidebar {
+    width:2.5rem;
+    border: none;
+    background: #aa82a5;
+}
+a .logo {
+    margin-right: 10rem;
+}
+nav{
+    font-weight: 500;
+}
+nav ul li{
+    list-style: none;
+    display:inline-block;
+    margin-right:4rem;
+}
+a.signin {
+    margin-right: 0.5rem;
+}
+
+a button {
+    border: 1px solid rgb(74, 73, 73);
+    cursor: pointer;
+}
+
+.nav_links a:hover {
+    text-decoration: underline;
+    
+}
+.nav_links a {
+    transition: text-decoration 1s ease-out;
 }
