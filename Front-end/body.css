@@ -1,0 +1,21 @@
+.aisearchbtn {
+    display: block;
+    width: 90%;
+    padding: 1rem;
+    font-size: 16px;
+    text-align: center;
+    background-color: #9ba5b0;
+    color: white;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    cursor: pointer;
+ 
+}
+
+.aisearchbtn:hover {
+    background-color: #9fb1c3;
+}
+.searchbardiv{
+    margin-top: 2rem;
+    margin-left: 7rem;
+}
